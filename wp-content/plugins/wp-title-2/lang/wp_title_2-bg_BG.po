@@ -1,0 +1,59 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Title 2 Bulgarian\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-09-28 21:57+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Hristo Chakarov <mail@ickata.net>\n"
+"Language-Team: iNetStudio.org <contact@inetstudio.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Bulgarian\n"
+"X-Poedit-Country: Bulgaria\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: /xampp/htdocs/Test/wordpress/wp-content/plugins/wp-title-2/wp-title-2.php:116
+msgid "Heading (optional)"
+msgstr "Заглавие (по избор)"
+
+#: /xampp/htdocs/Test/wordpress/wp-content/plugins/wp-title-2/wp-title-2.php:117
+msgid "HTML is enabled, you need to properly encode all HTML entities"
+msgstr "HTML е позволен, не забравяйте да кодирате правилно всички специални знаци"
+
+#: /xampp/htdocs/Test/wordpress/wp-content/plugins/wp-title-2/wp-title-2.php:117
+msgid "HTML is disabled"
+msgstr "HTML кода се филтрира"
+
+#: /xampp/htdocs/Test/wordpress/wp-content/plugins/wp-title-2/wp-title-2.php:386
+msgid "Enable WP Title 2 for Posts"
+msgstr "Активирай WP Title 2 за Публикации"
+
+#: /xampp/htdocs/Test/wordpress/wp-content/plugins/wp-title-2/wp-title-2.php:388
+msgid "Check this in order to enable WP Title 2 Custom Heading for Posts"
+msgstr "Чекнете тук ако желаете да използвате WP Title 2 и за заглавията на Публикациите"
+
+#: /xampp/htdocs/Test/wordpress/wp-content/plugins/wp-title-2/wp-title-2.php:381
+msgid "Enable WP Title 2 for Custom Post Types"
+msgstr "Активирай WP Title 2 за Потребителски Публикации (Custom Post Types)"
+
+#: /xampp/htdocs/Test/wordpress/wp-content/plugins/wp-title-2/wp-title-2.php:383
+msgid "Check this in order to enable WP Title 2 Custom Heading for Custom Post Types"
+msgstr "Чекнете тук ако желаете да използвате WP Title 2 и за заглавията на различните Потребителски Публикации"
+
+#: /xampp/htdocs/Test/wordpress/wp-content/plugins/wp-title-2/wp-title-2.php:395
+msgid "Enable HTML in WP Title 2 Heading"
+msgstr "Активирай HTML във WP Title 2 "
+
+#: /xampp/htdocs/Test/wordpress/wp-content/plugins/wp-title-2/wp-title-2.php:397
+msgid "Check here if you wish to write HTML code in your Heading fields. Otherwise, uncheck this (any HTML code will be filtered)"
+msgstr "Чекнете тук ако желаете да изполвате HTML код в заглавията на WP Title 2"
+
+#: /xampp/htdocs/Test/wordpress/wp-content/plugins/wp-title-2/wp-title-2.php:404
+msgid "Show default title in Administration's Post/Page view table"
+msgstr "Винаги показвай оригиналното заглавие в Администрацията"
+
+#: /xampp/htdocs/Test/wordpress/wp-content/plugins/wp-title-2/wp-title-2.php:406
+msgid "Check here if you prefer to view your original Post/Page Titles (instead of your custom WP Title 2 Headings) when listing all Posts or Pages in the WordPress Administration"
+msgstr "Чекнете тук ако в таблиците със Публикации/Страници в Администрацията желаете да се показват оригиналните заглавия на Публикации/Страници, вместо WP Title 2 заглавията"
+

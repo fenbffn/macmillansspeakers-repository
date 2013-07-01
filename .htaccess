@@ -1,0 +1,624 @@
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteBase /
+	RedirectMatch 301 ^/cms/sites/all/modules/ckeditor_link/(.*)$ /index.php 
+	RedirectMatch 301 ^/location/state/CA/(.*)$ /travels/CA 
+	RedirectMatch 301 ^/location/state/DC/(.*)$ /travels/DC
+	RedirectMatch 301 ^/location/state/NY/(.*)$ /travels/NY
+	RedirectMatch 301 (.*)\.aspx$ /index.php
+
+	RedirectMatch 301 /topic/AcademicInterest/(.*)$ /topics/AcademicInterest
+	RedirectMatch 301 /topic/Adventure/(.*)$ /topics/Adventure
+	RedirectMatch 301 /topic/business/(.*)$ /topics/Business
+	RedirectMatch 301 /topic/Business/(.*)$ /topics/Business
+	RedirectMatch 301 /topic/Celebrity/(.*)$ /topics/Celebrity	
+	RedirectMatch 301 /topic/Communication/(.*)$ /topics/Communication	
+	RedirectMatch 301 /topic/communication/(.*)$ /topics/Communication	
+	RedirectMatch 301 /topic/CultureSociety/(.*)$ /topics/CultureSociety
+	RedirectMatch 301 /topic/EconomicsFinance/(.*)$ /topics/EconomicsFinance
+	RedirectMatch 301 /topic/Entertainment/(.*)$ /topics/Entertainment
+	RedirectMatch 301 /topic/EnvironmentalIssues/(.*)$ /topics/EnvironmentalIssues
+	RedirectMatch 301 /topic/GlobalAffairs/(.*)$ /index.php
+	RedirectMatch 301 /topic/HealthWellness/(.*)$ /topics/HealthWellness
+	RedirectMatch 301 /topic/Historians/(.*)$ /topics/Historians
+	RedirectMatch 301 /topic/Humor/(.*)$ /topics/Humor
+	RedirectMatch 301 /topic/InspirationalSpeakers/(.*)$ /topics/InspirationalSpeakers
+	RedirectMatch 301 /topic/JewishInterest/(.*)$ /topics/JewishInterest
+	RedirectMatch 301 /topic/Leadership/(.*)$ /topics/Leadership
+	RedirectMatch 301 /topic/MiddleEastIssues/(.*)$ /topics/MiddleEastIssues
+	RedirectMatch 301 /topic/MindBrain/(.*)$ /topics/MindBrain
+	RedirectMatch 301 /topic/novelist/(.*)$ /topics/novelists
+	RedirectMatch 301 /topic/OutsidetheBox/(.*)$ /topics/OutsidetheBox
+	RedirectMatch 301 /topic/PoliticsPundits/(.*)$ /topics/politicsPundits
+	RedirectMatch 301 /topic/QuickandDirtyTips/(.*)$ /topics/QuickandDirtyTips
+	RedirectMatch 301 /topic/WomensInterest/(.*)$ /topics/WomensInterest
+	
+	RedirectMatch 301 /swf/(.*)$ http://www.youtube.com/user/macmillanspeakers
+	
+</IfModule>
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+
+RewriteCond %{QUERY_STRING} &?name=(.*)$
+RewriteRule ^/speaker.aspx?$ http://www.macmillanspeakers.com/ [R=301,L]
+</IfModule>
+
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteBase /
+	Redirect 301 /) /index.php
+	Redirect 301 /…eanawenphysicianaward...	/index.php
+	Redirect 301 /aaron	/aaroncarroll
+	Redirect 301 /aaron-carroll	/aaroncarroll	
+	Redirect 301 /aaroncarrollmd /aaroncarroll	
+	Redirect 301 /about-us/clients /clients	
+	Redirect 301 /about-us/feed /feed
+	Redirect 301 /afterburner /afterburnerinc	
+	Redirect 301 /alecbaldwin/17/clients /alecbaldwin	
+	Redirect 301 /alecbaldwin/17/faq /alecbaldwin	
+	Redirect 301 /amichael	/amichaellipper	
+	Redirect 301 /andycohen	/andycohen-1	
+	Redirect 301 /andycohen	/andycohen-1	
+
+	Redirect 301 /atulgawande /index.php	
+	Redirect 301 /atulgawande /index.php	
+	Redirect 301 /bert /bertdecker
+	Redirect 301 /blog/clients /clients	
+	Redirect 301 /blog/feed /index.php
+	Redirect 301 /book-speaker-contact/clients /clients
+	Redirect 301 /brianeule /index.php
+	Redirect 301 /brucealanjohnson /index.php
+	Redirect 301 /c-j-shield /charlesjshields	
+	Redirect 301 /c-j-shields /charlesjshields	
+	Redirect 301 /carlosrizowy-1 /carlosrizowy	
+	Redirect 301 /category/uncategorized/clients /clients	
+	Redirect 301 /chandler /chandlerburr	
+	Redirect 301 /change-management/clients	/clients
+	Redirect 301 /change-management/feed /index.php
+	Redirect 301 /chantal /chantalsicilekira	
+	Redirect 301 /christineodonnell/18/clients /christineodonnell	
+	Redirect 301 /christineodonnell/18/faq /christineodonnell	
+	Redirect 301 /chuckthompson /index.php
+	Redirect 301 /cj /index.php
+	Redirect 301 /clients/clients /clients
+	Redirect 301 /clients/feed /clients	
+	Redirect 301 /colincampbell	/ladycolincampbell	
+	Redirect 301 /comments/feed /index.php	
+	Redirect 301 /contact-us/clients /clients	
+	Redirect 301 /contact-us/feed /contact-us	
+	Redirect 301 /contact.aspx /contact-us	
+	Redirect 301 /content.aspx?id=10669 /index.php		
+	Redirect 301 /content.aspx?id=10669 /index.php			
+	Redirect 301 /content.aspx?id=10671 /index.php	
+	Redirect 301 /content.aspx?id=28406 /index.php	
+	Redirect 301 /content.aspx?id=28473 /index.php	
+	Redirect 301 /content.aspx?id=28671 /index.php	
+	Redirect 301 /content.aspx?id=28858 /index.php	
+	Redirect 301 /content.aspx?id=9883 /index.php	
+	Redirect 301 /content.aspx?id=9885 /index.php	
+	Redirect 301 /content.aspx?id=9885 /index.php	
+	Redirect 301 /convocation-2012 /index.php	
+	Redirect 301 /davidjlieberman /index.php	
+	Redirect 301 /davidwood-1 /davidwood	
+	Redirect 301 /davidwood-2 /davidwood	
+	Redirect 301 /davidwood-3 /davidwood	
+	Redirect 301 /derekkirkkim /index.php			
+	Redirect 301 /disclaimers/clients /clients	
+	Redirect 301 /disclaimers/feed /terms-disclaimers-privacy/	
+	Redirect 301 /drleanawenphysicianawardwinningauthorinternationalspeaker /index.php		
+	Redirect 301 /drleanawenphysicianawardwinningauthorinternationalspeaker /index.php	
+	Redirect 301 /drnathanielfrank /nathanielfrank	
+	Redirect 301 /drscarrollvreeman /rachelvreeman	
+	Redirect 301 /edgarmbronfman /index.php	
+	Redirect 301 /emilyanthes /index.php		
+	Redirect 301 /environmental-sustainability/clients /environmental-sustainability
+	Redirect 301 /environmental-sustainability/feed /environmental-sustainability
+	Redirect 301 /esthermsternbergmd /esthermsternberg	
+	Redirect 301 /esthermsternbergmd /esthermsternberg	
+	Redirect 301 /event-planning-questionnaire/clients /clients
+	Redirect 301 /event-planning-questionnaire/feed /clients	
+	Redirect 301 /faq/clients /clients
+	Redirect 301 /faq/feed /clients
+	Redirect 301 /francis /francisfukuyama	
+	Redirect 301 /fundraiser-budget-tips/clients /clients	
+	Redirect 301 /fundraiser-budget-tips/feed /index.php	
+	Redirect 301 /geneluenyang /index.php	
+	Redirect 301 /genewilde	/genewilder
+	Redirect 301 /georgeoconnor /index.php	
+	Redirect 301 /gordonthomas /index.php	
+	Redirect 301 /gurbaksh /gurbakshchahal	
+	Redirect 301 /harry	/harrycarson	
+	Redirect 301 /heatherbauerrdcdn	/heatherbauer	
+	Redirect 301 /heatherbauerrdcdn /index.php			
+	Redirect 301 /hertamuller%20rel=%5C'nofollow%5C' /hertamuller	
+	Redirect 301 /how-to-promote-your-fundraiser/clients /clients	
+	Redirect 301 /how-to-promote-your-fundraiser/feed /how-to-promote-your-fundraiser	
+	Redirect 301 /http//www.freedomworks.org /how-to-promote-your-fundraiser/	
+	Redirect 301 /iansmith /ianksmith	
+	Redirect 301 /ishmael /ishmaelbeah	
+	Redirect 301 /jane /janemaas	
+	Redirect 301 /janeyolen /index.php			
+	Redirect 301 /jeanbenoitnadeau /index.php	
+	Redirect 301 /jeffhertzberg	/jeffhertzbergmd	
+	Redirect 301 /jennifer /index.php	
+	Redirect 301 /jenniferthompsoncannino /index.php			
+	Redirect 301 /jimottaviani /index.php	
+	Redirect 301 /johnbacon	/johnubacon	
+	Redirect 301 /johnny /johnnytaylorjr	
+	Redirect 301 /johnnytaylor /johnnytaylorjr	
+	Redirect 301 /johnrtalbott-1 /johnrtalbott	
+	Redirect 301 /jonathangruber /index.php			
+	Redirect 301 /josephfinder-1 /index.php	
+	Redirect 301 /jstiglitz	/josephstiglitz	
+	Redirect 301 /juan /juancole	
+	Redirect 301 /karnasmall /karnasmallbodman	
+	Redirect 301 /karnasmallbodmanCached /karnasmallbodman	
+	Redirect 301 /kenblanchard /index.php			
+	Redirect 301 /kinkyfriedman /index.php	
+	Redirect 301 /laurenbacall/10/clients /clients	
+	Redirect 301 /laurenbacall/10/faq /laurenbacall	
+	Redirect 301 /laurenbacallKatharine	/laurenbacall	
+	Redirect 301 /leadership-in-womens-business/clients	/clients	
+	Redirect 301 /leadership-in-womens-business/feed /topics/leadership	
+	Redirect 301 /lelandmyrick /index.php		
+	Redirect 301 /lesliemorgansteiner /index.php	
+	Redirect 301 /lindakillia /lindakillian	
+	Redirect 301 /location/country/CAN /travels/CAN
+	Redirect 301 /location/country/GBR /index.php	
+	Redirect 301 /location/harrycarson /harrycarson	
+	Redirect 301 /location/kittykelley	/kittykelley
+
+	
+	Redirect 301 /location/lindakillian	/lindakillian
+	Redirect 301 /location/state/AK /travels/AK
+	Redirect 301 /location/state/AL /travels/alabama
+	Redirect 301 /location/state/AZ /travels/AZ
+	Redirect 301 /location/state/CA /travels/CA
+	Redirect 301 /location/state/CA/2 /index.php
+	Redirect 301 /location/state/CO /travels/CO
+	Redirect 301 /location/state/CT /travels/CT
+	Redirect 301 /location/state/DC /travels/DC
+	Redirect 301 /location/state/DC/harrycarson	/harrycarson
+	Redirect 301 /location/state/DC/kittykelley	/kittykelley
+	Redirect 301 /location/state/DC/lindakillian /lindakillian
+	Redirect 301 /location/state/DE /travels/DE
+	Redirect 301 /location/state/fl	/travels/FL
+	Redirect 301 /location/state/GA	/travels/GA
+	Redirect 301 /location/state/ga	 /travels/GA
+	Redirect 301 /location/state/harrycarson	/harrycarson
+	Redirect 301 /location/state/IA /travels/IN
+	Redirect 301 /location/state/IL	/travels/IL
+	Redirect 301 /location/state/IN	/travels/IN
+	Redirect 301 /location/state/LA	/travels/LA
+	Redirect 301 /location/state/MA	/travels/MA
+	Redirect 301 /location/state/MD	/travels/MD
+	Redirect 301 /location/state/MI	/travels/MI
+	Redirect 301 /location/state/MN	/travels/MN
+	Redirect 301 /location/state/MO	/travels/MO
+	Redirect 301 /location/state/NC	/travels/NC
+	Redirect 301 /location/state/NE	/travels/NE
+	Redirect 301 /location/state/NH	/travels/NH
+	Redirect 301 /location/state/NJ	/travels/NJ
+	Redirect 301 /location/state/NM	/travels/NM
+	Redirect 301 /location/state/NV	/travels/NV
+	Redirect 301 /location/state/NY	/travels/NY
+	Redirect 301 /location/state/NY/2 /travels/NY	
+	Redirect 301 /location/state/NY/3 /travels/NY
+	Redirect 301 /location/state/NY/4 /travels/NY
+	Redirect 301 /location/state/NY/harrycarson	/harrycarson
+	Redirect 301 /location/state/NY/kittykelley	/kittykelley
+	Redirect 301 /location/state/NY/lindakillian	/lindakillian
+	Redirect 301 /location/state/OH /travels/OH
+	Redirect 301 /location/state/OK	/travels/OK
+	Redirect 301 /location/state/OR	/travels/OR
+	Redirect 301 /location/state/PA	/travels/PA
+	Redirect 301 /location/state/RI	/travels/RI
+	Redirect 301 /location/state/SC	/travels/SC
+	Redirect 301 /location/state/TN	/travels/TN
+	Redirect 301 /location/state/TX	/travels/Texas
+	Redirect 301 /location/state/UT	/travels/UT
+	Redirect 301 /location/state/VA	/travels/VA
+	Redirect 301 /location/state/VT	/travels/VT
+	Redirect 301 /location/state/WA	/travels/WA
+	Redirect 301 /location/state/WY	/travels/WY
+	Redirect 301 /location /index.php	
+	
+
+Redirect 301 /marcus	/marcusbuckingham
+Redirect 301 /margueriterigoglioso /index.php
+Redirect 301 /markdavis	/markdavis-1
+Redirect 301 /markdavis	/markdavis-1
+Redirect 301 /michael /?s=michael
+Redirect 301 /michaeljsandel /index.php
+Redirect 301 /michaelshermer-1 /michaelshermer
+Redirect 301 /michaelt /index.php
+Redirect 301 /mignon /mignonfogarty
+Redirect 301 /mike /?s=mike
+Redirect 301 /mikeedisonCachedYou /mikeedison
+Redirect 301 /mikeritland /michaelritland
+Redirect 301 /mishna /mishnawolff
+Redirect 301 /mishnawolffAt /mishnawolff
+Redirect 301 /mittromney /index.php
+Redirect 301 /mkasantejr /index.php
+Redirect 301 /nickreding /index.php
+Redirect 301 /our-brochure/clients /our-brochure/
+Redirect 301 /our-brochure/feed /our-brochure/
+Redirect 301 /pamela /pamelameyer
+Redirect 301 /pccast /index.php	
+Redirect 301 /peggyliptonCachedYou /peggylipton
+Redirect 301 /philippedemontebello /index.php
+Redirect 301 /pm /?s=pm
+Redirect 301 /privacy-policy/clients /privacy-policy
+Redirect 301 /privacy-policy/feed /privacy-policy
+Redirect 301 /privacy/clients /clients
+Redirect 301 /privacy/feed /privacy-policy
+Redirect 301 /rachelvreemanmd /rachelvreeman
+Redirect 301 /rayanderson /index.php
+Redirect 301 /Read%20about%20Chris%20Trimble’s%20teaching%20in%20The%20New%20Yorker	/christrimble
+Redirect 301 /robinzasio /drrobinzasio
+Redirect 301 /ronaldcotton /index.php
+Redirect 301 /rosbarber /index.php
+Redirect 301 /rossdonaldson[ /rossdonaldson
+Redirect 301 /sandeepjauhar /index.php
+Redirect 301 /scottturow /index.php
+Redirect 301 /search/filter/AL/harrycarson /harrycarson
+Redirect 301 /search/filter/AL/kittykelley /kittykelley
+Redirect 301 /search/filter/AL/lindakillian /lindakillian
+Redirect 301 /search/filter/MS/harrycarson /harrycarson
+Redirect 301 /search/filter/MS/kittykelley /kittykelley
+Redirect 301 /search/filter/MS/lindakillian /lindakillian
+Redirect 301 /search/filter/TZ/harrycarson /harrycarson
+Redirect 301 /search/filter/TZ/kittykelley /kittykelley
+Redirect 301 /search/filter/TZ/lindakillian /lindakillian
+Redirect 301 /search/harrycarson /harrycarson
+Redirect 301 /search/kittykelley /kittykelley
+Redirect 301 /search/lindakillian /lindakillian
+Redirect 301 /selecting-speaker-fundraising-event/clients /clients
+Redirect 301 /selecting-speaker-fundraising-event/feed /how-to-promote-your-fundraiser
+Redirect 301 /senarlenspecter /index.php
+Redirect 301 /sitemap.aspx /sitemap
+Redirect 301 /sitemap/clients /sitemap
+Redirect 301 /sitemap/feed /sitemap
+Redirect 301 /speaker.aspx?name=adamfreedman /adamfreedman
+Redirect 301 /speaker.aspx?name=aimeemullins /aimeemullins
+Redirect 301 /speaker.aspx?name=hertamuller /hertamuller
+Redirect 301 /speaker.aspx?name=juancole /juancole
+Redirect 301 /speaker.aspx?name=kenwells /kenwells
+Redirect 301 /speaker.aspx?name=marcovicenzino /marcovicenzino
+Redirect 301 /speaker.aspx?name=monicareinagel /monicareinagel
+Redirect 301 /speaker.aspx?name=pccast /index.php
+Redirect 301 /speaker.aspx?name=thomasoliphant /index.php
+Redirect 301 /speakers/clients /clients
+Redirect 301 /speakers/feed /index.php
+Redirect 301 /SpeakerThemes/Etiquette /index.php	
+Redirect 301 /SpeakerThemes/harrycarson	/harrycarson
+Redirect 301 /SpeakerThemes/senarlenspecter /index.php
+Redirect 301 /SpeakerThemes/SustainabilityEnvironmentalSpeakers	/environmental-sustainability
+Redirect 301 /stiglitz	/josephstiglitz
+Redirect 301 /swf/videoPlayer_9.swf?hostname=us.macmillan.com&mediafileid=4118150&type=1&pageid=3 /index.php
+Redirect 301 /tanaamen /index.php
+Redirect 301 /team-building/clients	/clients
+Redirect 301 /team-building/feed /index.php
+Redirect 301 /templates /index.php
+Redirect 301 /templates/harrycarson /harrycarson
+Redirect 301 /templates/kittykelley /kittykelley
+Redirect 301 /templates/lindakillian /lindakillian
+Redirect 301 /term-of-use/clients /clients
+Redirect 301 /term-of-use/feed /terms-disclaimers-privacy
+Redirect 301 /terms-disclaimers-privacy/clients /clients
+Redirect 301 /terms-disclaimers-privacy/feed /terms-disclaimers-privacy
+Redirect 301 /terms/clients	/clients
+Redirect 301 /terms/feed /terms-disclaimers-privacy
+Redirect 301 /terrymcauliffe /terms-disclaimers-privacy
+Redirect 301 /test/clients /clients
+Redirect 301 /test/feed /index.php
+Redirect 301 /thomasfrank /index.php
+Redirect 301 /tomaveryBiography /index.php
+Redirect 301 /tomridge/17/clients /clients
+Redirect 301 /tomridge/17/faq /index.php
+Redirect 301 /topic/AcademicInterest /topics/academicinterest
+Redirect 301 /topic/AcademicInterest /topics/academicinterest
+Redirect 301 /topic/academicinterest/2 /topics/academicinterest
+Redirect 301 /topic/academicinterest/3 /topics/academicinterest
+Redirect 301 /topic/academicinterest/4 /topics/academicinterest
+Redirect 301 /topic/academicinterest/5 /topics/academicinterest
+Redirect 301 /topic/academicinterest/6 /topics/academicinterest
+Redirect 301 /topic/academicinterest/7 /topics/academicinterest
+Redirect 301 /topic/academicinterest/harrycarson /harrycarson
+Redirect 301 /topic/academicinterest/kittykelley /topics/academicinterest
+Redirect 301 /topic/academicinterest/lindakillian /lindakillian
+Redirect 301 /topic/Adventure /topics/adventure
+Redirect 301 /topic/Adventure/2 /topics/adventure
+Redirect 301 /topic/Business /topics/business
+Redirect 301 /topic/business /topics/business
+Redirect 301 /topic/business/harrycarson /index.php	
+Redirect 301 /topic/business/kittykelley /kittykelley
+Redirect 301 /topic/business/lindakillian /lindakillian
+Redirect 301 /topic/Celebrity /topics/celebrity
+Redirect 301 /topic/Celebrity/1	/topics/celebrity
+Redirect 301 /topic/Celebrity/2	/topics/celebrity
+Redirect 301 /topic/Celebrity/lindakillian	/lindakillian
+Redirect 301 /topic/communication /topics/communication
+Redirect 301 /topic/communication/1 /topics/communication
+Redirect 301 /topic/Communication/1 /topics/communication
+Redirect 301 /topic/Communication/2 /topics/communication
+Redirect 301 /topic/communication/2 /topics/communication
+Redirect 301 /topic/communication/3 /topics/communication
+Redirect 301 /topic/communication/harrycarson /harrycarson
+Redirect 301 /topic/communication/kittykelley /kittykelley
+Redirect 301 /topic/communication/lindakillian /lindakillian
+Redirect 301 /topic/CultureSociety /topics/CultureSociety
+Redirect 301 /topic/CultureSociety/2 /topics/CultureSociety
+Redirect 301 /topic/CultureSociety/3 /topics/CultureSociety
+Redirect 301 /topic/CultureSociety/4 /topics/CultureSociety
+Redirect 301 /topic/CultureSociety/5 /topics/CultureSociety
+Redirect 301 /topic/CultureSociety/6 /topics/CultureSociety
+Redirect 301 /topic/CultureSociety/harrycarson	/harrycarson
+Redirect 301 /topic/CultureSociety/kittykelley	/kittykelley
+Redirect 301 /topic/CultureSociety/lindakillian	/lindakillian
+Redirect 301 /topic/EconomicsFinance /topics/economicsfinance
+Redirect 301 /topic/EconomicsFinance/1 /topics/economicsfinance
+Redirect 301 /topic/EconomicsFinance/2 /topics/economicsfinance
+Redirect 301 /topic/EconomicsFinance/3 /topics/economicsfinance
+Redirect 301 /topic/EconomicsFinance/harrycarson /harrycarson
+Redirect 301 /topic/EconomicsFinance/kittykelley /kittykelley
+Redirect 301 /topic/EconomicsFinance/lindakillian /lindakillian
+Redirect 301 /topic/Entertainment /topics/entertainment
+Redirect 301 /topic/Entertainment/2	/topics/entertainment
+Redirect 301 /topic/Entertainment/harrycarson /harrycarson
+Redirect 301 /topic/Entertainment/kittykelley /index.php	
+Redirect 301 /topic/Entertainment/lindakillian /lindakillian
+Redirect 301 /topic/EnvironmentalIssues /topics/environmentalissues
+Redirect 301 /topic/EnvironmentalIssues/1 /topics/environmentalissues
+Redirect 301 /topic/EnvironmentalIssues/2 /topics/environmentalissues
+Redirect 301 /topic/EnvironmentalIssues/harrycarson	/harrycarson
+Redirect 301 /topic/EnvironmentalIssues/kittykelley	/kittykelley
+Redirect 301 /topic/EnvironmentalIssues/lindakillian /lindakillian
+Redirect 301 /topic/Etiquette /index.php
+Redirect 301 /topic/Etiquette /index.php
+Redirect 301 /topic/Family /index.php
+Redirect 301 /topic/Family /index.php
+Redirect 301 /topic/Family/2 /index.php
+Redirect 301 /topic/Family/harrycarson /harrycarson
+Redirect 301 /topic/Family/kittykelley /kittykelley
+Redirect 301 /topic/Family/lindakillian /lindakillian
+Redirect 301 /topic/FoodWine /topics/foodwine/
+Redirect 301 /topic/FoodWine /topics/foodwine/
+Redirect 301 /topic/GlobalAffairs /index.php	
+Redirect 301 /topic/GlobalAffairs /index.php
+Redirect 301 /topic/GlobalAffairs/2 /index.php
+Redirect 301 /topic/GlobalAffairs/3 /index.php
+Redirect 301 /topic/GlobalAffairs/4 /index.php
+Redirect 301 /topic/GlobalAffairs/harrycarson /harrycarson
+Redirect 301 /topic/GlobalAffairs/kittykelley /kittykelley
+Redirect 301 /topic/HealthWellness /topics/healthwellness
+Redirect 301 /topic/HealthWellness /topics/healthwellness
+Redirect 301 /topic/HealthWellness/2 /topics/healthwellness
+Redirect 301 /topic/HealthWellness/3 /topics/healthwellness
+Redirect 301 /topic/HealthWellness/harrycarson	/harrycarson
+Redirect 301 /topic/HealthWellness/kittykelley	/kittykelley
+Redirect 301 /topic/HealthWellness/lindakillian	/lindakillian
+Redirect 301 /topic/Historians /topics/historians
+Redirect 301 /topic/Historians /topics/historians
+Redirect 301 /topic/Historians/2 /topics/historians
+Redirect 301 /topic/Historians/harrycarson /harrycarson
+Redirect 301 /topic/Historians/kittykelley /kittykelley
+Redirect 301 /topic/Historians/lindakillian /lindakillian
+Redirect 301 /topic/Humor /topics/humor
+Redirect 301 /topic/Humor/2 /topics/humor
+Redirect 301 /topic/Humor/harrycarson /harrycarson
+Redirect 301 /topic/Humor/kittykelley /kittykelley
+Redirect 301 /topic/Humor/lindakillian /lindakillian
+Redirect 301 /topic/InspirationalSpeakers /topics/inspirationalspeakers
+Redirect 301 /topic/InspirationalSpeakers/1	/topics/inspirationalspeakers
+Redirect 301 /topic/InspirationalSpeakers/2	/topics/inspirationalspeakers
+Redirect 301 /topic/InspirationalSpeakers/3	/topics/inspirationalspeakers
+Redirect 301 /topic/InspirationalSpeakers/4	/topics/inspirationalspeakers
+Redirect 301 /topic/InspirationalSpeakers/harrycarson /harrycarson
+Redirect 301 /topic/InspirationalSpeakers/kittykelley /kittykelley
+Redirect 301 /topic/InspirationalSpeakers/lindakillian /lindakillian
+Redirect 301 /topic/JewishInterest /topics/JewishInterest
+Redirect 301 /topic/JewishInterest/2 /index.php
+Redirect 301 /topic/JewishInterest/harrycarson /harrycarson
+Redirect 301 /topic/JewishInterest/kittykelley /kittykelley
+Redirect 301 /topic/JewishInterest/lindakillian /lindakillian
+Redirect 301 /topic/kittykelley	/kittykelley
+Redirect 301 /topic/Leadership /topics/leadership
+Redirect 301 /topic/Leadership/2 /topics/leadership
+Redirect 301 /topic/Leadership/3 /topics/leadership
+Redirect 301 /topic/Leadership/4 /topics/leadership
+Redirect 301 /topic/Leadership/harrycarson /harrycarson
+Redirect 301 /topic/Leadership/kittykelley /kittykelley
+Redirect 301 /topic/Leadership/lindakillian /lindakillian
+Redirect 301 /topic/legalaffairs /topics/legalaffairs
+Redirect 301 /topic/Lifestyle /topics/lifestyle
+Redirect 301 /topic/Medical	/topics/healthwellness
+Redirect 301 /topic/middleeastissues /topics/middleeastissues
+Redirect 301 /topic/MiddleEastIssues/1 /topics/middleeastissues
+Redirect 301 /topic/MiddleEastIssues/harrycarson /harrycarson
+Redirect 301 /topic/middleeastissues/kittykelley /kittykelley
+Redirect 301 /topic/MiddleEastIssues/lindakillian /lindakillian
+Redirect 301 /topic/MindBrain /topics/mindbrain
+Redirect 301 /topic/MindBrain/2 /topics/mindbrain
+Redirect 301 /topic/MindBrain/harrycarson /harrycarson
+Redirect 301 /topic/MindBrain/kittykelley /kittykelley
+Redirect 301 /topic/MindBrain/lindakillian /lindakillian
+Redirect 301 /topic/novelists /topics/novelists
+Redirect 301 /topic/novelists/2 /topics/novelists
+Redirect 301 /topic/OutsidetheBox /topics/outsidethebox
+Redirect 301 /topic/OutsidetheBox/2	/topics/outsidethebox
+Redirect 301 /topic/OutsidetheBox/3	/topics/outsidethebox
+Redirect 301 /topic/OutsidetheBox/4	/topics/outsidethebox
+Redirect 301 /topic/OutsidetheBox/harrycarson /harrycarson
+Redirect 301 /topic/OutsidetheBox/kittykelley /kittykelley
+Redirect 301 /topic/OutsidetheBox/lindakillian /lindakillian
+Redirect 301 /topic/PoliticsPundits	/topics/politicspundits
+Redirect 301 /topic/PoliticsPundits	/topics/politicspundits
+Redirect 301 /topic/PoliticsPundits/1 /topics/politicspundits
+Redirect 301 /topic/PoliticsPundits/2 /topics/politicspundits
+Redirect 301 /topic/PoliticsPundits/3 /topics/politicspundits
+Redirect 301 /topic/PoliticsPundits/harrycarson	/harrycarson
+Redirect 301 /topic/PoliticsPundits/kittykelley	/kittykelley
+Redirect 301 /topic/PoliticsPundits/lindakillian /lindakillian
+Redirect 301 /topic/QuickandDirtyTips /topics/quickanddirtytips
+Redirect 301 /topic/QuickandDirtyTips /topics/quickanddirtytips
+Redirect 301 /topic/Religious /topics/religious
+Redirect 301 /topic/Sports /topics/sports
+Redirect 301 /topic/SustainabilityandEnvironment /environmental-sustainability
+Redirect 301 /topic/TheArts	/index.php
+Redirect 301 /topic/WomensInterest /topics/womensinterest
+Redirect 301 /topic/WomensInterest/2 /topics/womensinterest
+Redirect 301 /topic/WomensInterest/3 /topics/womensinterest
+Redirect 301 /topic/WomensInterest/4 /topics/womensinterest
+Redirect 301 /topic/WomensInterest/harrycarson	/harrycarson
+Redirect 301 /topic/WomensInterest/kittykelley	/kittykelley
+Redirect 301 /topic/WomensInterest/lindakillian	/lindakillian
+Redirect 301 /topics/academicinterest/clients /clients
+Redirect 301 /topics/adventure/clients	/clients
+Redirect 301 /topics/business/clients	/clients
+Redirect 301 /topics/celebrity/clients	/clients
+Redirect 301 /topics/chiropractic/clients	/clients
+Redirect 301 /topics/communication/clients	/clients
+Redirect 301 /topics/connecting-business-risk/clients /clients
+Redirect 301 /topics/culturesociety/clients	/clients
+Redirect 301 /topics/economic-and-environmental-policy/clients	/privacy-policy
+Redirect 301 /topics/economicsfinance/clients	/clients
+Redirect 301 /topics/entertainment/clients	/clients
+Redirect 301 /topics/environmentalissues/clients /clients
+Redirect 301 /topics/family/clients	/clients
+Redirect 301 /topics/foodwine/clients	/clients
+Redirect 301 /topics/globalaffairs/clients	/clients
+Redirect 301 /topics/healthwellness/clients	/clients
+Redirect 301 /topics/historians/clients	/clients
+Redirect 301 /topics/humor/clients	/clients
+Redirect 301 /topics/inspirationalspeakers/clients	/clients
+Redirect 301 /topics/jewishinterest/clients	/clients
+Redirect 301 /topics/leadership/clients	/clients
+Redirect 301 /topics/legalaffairs/clients	/topics/legalaffairs
+Redirect 301 /topics/lgbt/clients	/clients
+Redirect 301 /topics/lifestyle/clients	/clients
+Redirect 301 /topics/medical/clients	/clients
+Redirect 301 /topics/middleeastissues/clients	/clients
+Redirect 301 /topics/military/clients	/clients
+Redirect 301 /topics/mindbrain/clients	/clients
+Redirect 301 /topics/motivational/clients	/clients
+Redirect 301 /topics/novelists/clients	/topics/novelists
+Redirect 301 /topics/outsidethebox/clients	/clients
+Redirect 301 /topics/politicspundits/clients	/clients
+Redirect 301 /topics/quickanddirtytips/clients	/topics/quickanddirtytips
+Redirect 301 /topics/religious/clients	/topics/religious
+Redirect 301 /topics/spiritual/clients	/clients
+Redirect 301 /topics/sports/clients	/topics/sports
+Redirect 301 /topics/sustainability-and-survival/clients	/clients
+Redirect 301 /topics/team-building/clients	/clients
+Redirect 301 /topics/thearts/clients	/clients
+Redirect 301 /topics/transforming-accounting-practices-for-the-21st-century/clients	/clients
+Redirect 301 /topics/womensinterest/clients	/topics/womensinterest
+Redirect 301 /travels/AK/clients	/clients
+Redirect 301 /travels/alabama/clients	/clients
+Redirect 301 /travels/AZ/clients	/clients
+Redirect 301 /travels/CA/clients	/clients
+Redirect 301 /travels/CAN/clients	/clients
+Redirect 301 /travels/CO/clients	/clients
+Redirect 301 /travels/CT/clients	/clients
+Redirect 301 /travels/DC/clients	/clients
+Redirect 301 /travels/DE/clients	/clients
+Redirect 301 /travels/FL/clients	/clients
+Redirect 301 /travels/GA/clients	/clients
+Redirect 301 /travels/GBR/clients	/clients
+Redirect 301 /travels/IA/clients	/clients
+Redirect 301 /travels/IL/clients	/clients
+Redirect 301 /travels/IN/clients	/clients
+Redirect 301 /travels/LA/clients	/clients
+Redirect 301 /travels/MA/clients	/clients
+Redirect 301 /travels/maine/clients	/clients
+Redirect 301 /travels/MD/clients	/clients
+Redirect 301 /travels/MI/clients	/clients
+Redirect 301 /travels/MN/clients	/clients
+Redirect 301 /travels/MO/clients	/clients
+Redirect 301 /travels/NC/clients	/clients
+Redirect 301 /travels/NE/clients	/clients
+Redirect 301 /travels/NH/clients	/clients
+Redirect 301 /travels/NJ/clients	/clients
+Redirect 301 /travels/NM/clients	/clients
+Redirect 301 /travels/NV/clients	/clients
+Redirect 301 /travels/NY/clients	/clients
+Redirect 301 /travels/OH/clients	/clients
+Redirect 301 /travels/OR/clients	/clients
+Redirect 301 /travels/PA/clients	/clients
+Redirect 301 /travels/RI/clients	/clients
+Redirect 301 /travels/SC/clients	/clients
+Redirect 301 /travels/texas/clients	/clients
+Redirect 301 /travels/TN/clients	/clients
+Redirect 301 /travels/UT/clients	/clients
+Redirect 301 /travels/VA/clients	/clients
+Redirect 301 /travels/VT/clients	/clients
+Redirect 301 /travels/WA/clients	/clients
+Redirect 301 /travels/WY/clients	/clients
+Redirect 301 /uncategorized/hello-world/clients /index.php	
+Redirect 301 /uncategorized/update-name-for-speaker/clients /index.php	
+Redirect 301 /video-catalog/clients	/clients
+Redirect 301 /video-catalog/feed  http://www.youtube.com/user/macmillanspeakers
+Redirect 301 /wafa	http://www.youtube.com/user/macmillanspeakers
+Redirect 301 /wafasultan/harrycarson	/harrycarson
+Redirect 301 /wafasultan/kittykelley	/kittykelley
+Redirect 301 /wafasultan/lindakillian	/lindakillian
+Redirect 301 /wendy	/wendywalker
+Redirect 301 /will	/index.php
+Redirect 301 /willshortz /index.php
+Redirect 301 /wps/find/journaldescription.cws_home/620401/authorinstructions	/index.php
+Redirect 301 /www.cherieburns.com	/cherieburns
+Redirect 301 /www.macmillan.com	/index.php
+Redirect 301 /www.raintees.com	/index.php
+Redirect 301 /yoram	/index.php
+Redirect 301 /youtube-channel-gallery/clients	/clients
+Redirect 301 /youtube-channel-gallery/feed	http://www.youtube.com/user/macmillanspeakers
+Redirect 301 /youtube/video-1/feed	http://www.youtube.com/user/macmillanspeakers
+Redirect 301 /youtube/video-2/feed	http://www.youtube.com/user/macmillanspeakers
+Redirect 301 /youtube/video-3/feed	http://www.youtube.com/user/macmillanspeakers
+Redirect 301 /youtube/video-4/feed	http://www.youtube.com/user/macmillanspeakers
+
+	
+</IfModule>
+
+# END WordPress
+
+
+# BEGIN W3TC Browser Cache
+<IfModule mod_deflate.c>
+    <IfModule mod_headers.c>
+        Header append Vary User-Agent env=!dont-vary
+    </IfModule>
+        AddOutputFilterByType DEFLATE text/css text/x-component application/x-javascript application/javascript text/javascript text/x-js text/html text/richtext image/svg+xml text/plain text/xsd text/xsl text/xml image/x-icon application/json
+    <IfModule mod_mime.c>
+        # DEFLATE by extension
+        AddOutputFilter DEFLATE js css htm html xml
+    </IfModule>
+</IfModule>
+# END W3TC Browser Cache
+
+# BEGIN W3TC Page Cache core
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteBase /
+    RewriteCond %{HTTP:Accept-Encoding} gzip
+    RewriteRule .* - [E=W3TC_ENC:_gzip]
+    RewriteCond %{REQUEST_METHOD} !=POST
+    RewriteCond %{QUERY_STRING} =""
+    RewriteCond %{REQUEST_URI} \/$
+    RewriteCond %{HTTP_COOKIE} !(comment_author|wp-postpass|w3tc_logged_out|wordpress_logged_in|wptouch_switch_toggle) [NC]
+    RewriteCond "%{DOCUMENT_ROOT}/wp-content/cache/page_enhanced/%{HTTP_HOST}/%{REQUEST_URI}/_index.html%{ENV:W3TC_ENC}" -f
+    RewriteRule .* "/wp-content/cache/page_enhanced/%{HTTP_HOST}/%{REQUEST_URI}/_index.html%{ENV:W3TC_ENC}" [L]
+</IfModule>
+# END W3TC Page Cache core

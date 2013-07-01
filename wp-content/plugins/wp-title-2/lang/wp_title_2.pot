@@ -1,0 +1,56 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Title 2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-09-28 21:57+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Hristo Chakarov <ickata@ickata.net>\n"
+"Language-Team: TEAM <EMAIL>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: /xampp/htdocs/Test/wordpress/wp-content/plugins/wp-title-2/wp-title-2.php:116
+msgid "Heading (optional)"
+msgstr ""
+
+#: /xampp/htdocs/Test/wordpress/wp-content/plugins/wp-title-2/wp-title-2.php:117
+msgid "HTML is enabled, you need to properly encode all HTML entities"
+msgstr ""
+
+#: /xampp/htdocs/Test/wordpress/wp-content/plugins/wp-title-2/wp-title-2.php:117
+msgid "HTML is disabled"
+msgstr ""
+
+#: /xampp/htdocs/Test/wordpress/wp-content/plugins/wp-title-2/wp-title-2.php:386
+msgid "Enable WP Title 2 for Posts"
+msgstr ""
+
+#: /xampp/htdocs/Test/wordpress/wp-content/plugins/wp-title-2/wp-title-2.php:388
+msgid "Check this in order to enable WP Title 2 Custom Heading for Posts"
+msgstr ""
+
+#: /xampp/htdocs/Test/wordpress/wp-content/plugins/wp-title-2/wp-title-2.php:381
+msgid "Enable WP Title 2 for Custom Post Types"
+msgstr ""
+
+#: /xampp/htdocs/Test/wordpress/wp-content/plugins/wp-title-2/wp-title-2.php:383
+msgid "Check this in order to enable WP Title 2 Custom Heading for Custom Post Types"
+msgstr ""
+
+#: /xampp/htdocs/Test/wordpress/wp-content/plugins/wp-title-2/wp-title-2.php:395
+msgid "Enable HTML in WP Title 2 Heading"
+msgstr ""
+
+#: /xampp/htdocs/Test/wordpress/wp-content/plugins/wp-title-2/wp-title-2.php:397
+msgid "Check here if you wish to write HTML code in your Heading fields. Otherwise, uncheck this (any HTML code will be filtered)"
+msgstr ""
+
+#: /xampp/htdocs/Test/wordpress/wp-content/plugins/wp-title-2/wp-title-2.php:404
+msgid "Show default title in Administration's Post/Page view table"
+msgstr ""
+
+#: /xampp/htdocs/Test/wordpress/wp-content/plugins/wp-title-2/wp-title-2.php:406
+msgid "Check here if you prefer to view your original Post/Page Titles (instead of your custom WP Title 2 Headings) when listing all Posts or Pages in the WordPress Administration"
+msgstr ""
+
