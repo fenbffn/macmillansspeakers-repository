@@ -1,0 +1,47 @@
+/*.reveal-modal-bg{background:url(../images/backtransparent.png) !important;z-index:5000 !important}*/
+
+.reveal-modal-bg{background:url(../images/backtransparent.png)}
+.group2{z-index:10 !important
+
+}
+
+.group2 #myDiv{ 
+font-size: 8px; float:right;
+position:inherit !important;
+text-align:right !important;
+margin-right:inherit;
+
+
+	
+	}
+
+.group3{z-index:-20 !important}
+
+.center_button_advanced{
+    padding: 10 px;
+    float: none !important;
+    width: 100%;
+    text-decoration: none !important;
+    
+}
+
+.button_advanced_search{
+    width: 100%;
+/*    line-height: 10px;
+    height: 100%;
+    display: inline;*/
+        
+    
+}
+
+.left_button_advanced{
+    display: none !important;
+    
+}
+
+.right_button_advanced
+{
+display: none !important;
+}
+
+.separate{z-index:-10 !important}
