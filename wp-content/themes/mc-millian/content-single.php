@@ -91,7 +91,7 @@
 
 			<br/>
 
-            <a target="_blank" href="../../genpdf/generar.php?id=<?php the_ID();?>"><img src="<?php echo get_site_url(); ?>/wp-content/uploads/2013/02/icon-pdf.png" alt="pdf"/> Download Bio</a>
+            <a target="_blank" href="../../genpdf/generar.php?id=<?php the_ID();?>" onClick="_gaq.push(['_trackEvent', 'Download Bio', 'download', '<?php echo the_title(); ?>', 5, true]);"><img src="<?php echo get_site_url(); ?>/wp-content/uploads/2013/02/icon-pdf.png" alt="pdf"/> Download Bio</a>
 
             <br/><br/>
             <div id="danieldiv" style="display:none"  class="reveal-modal2">
@@ -183,7 +183,7 @@
         </div>
             <?php
         else:
-            echo "<h3>Videos Coming Soon</h3>";
+            echo "<h3>Videos Comings Soon</h3>";
         endif;?>
     </div>
     <div id='tab4' class="tab">
